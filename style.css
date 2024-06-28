@@ -1,0 +1,52 @@
+:root {
+    --cor-principal: #8608cfc7;
+    --cor-img-border: #9547eeec;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #8608cfc7, #301e3a);
+
+}
+.icon {
+    height:1rem;
+    width: 1rem;
+    margin: auto;
+}
+.imagem {
+    width: 400px;
+    /* height: 100px; */
+    border-radius: 28rem; /*deixa abaulado*/
+    border-width: 0.4rem 0px 0px 0.4rem;
+    border-style: solid;
+    border-color: var(--cor-img-border);
+    box-shadow: 3px 5px 0px rgb(79, 30, 107);
+    /* padding: 0px;  usado para ver melhor a linha envolta da imagem*/
+    box-shadow: inset;
+}
+
+.div_pai {
+    display: inline-block;
+    text-decoration: none;
+
+}
+.div_de_dentro {
+    background-color: aliceblue;
+    height: 50px;
+    width: 20rem;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+.P {
+    display: inline-flex;
+}
+
+
+
+
+/* li1 = li 
+    div_pai = div de tudo
+    div_de_dentro = div da parte de dentro */
