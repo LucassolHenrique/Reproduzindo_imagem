@@ -8,12 +8,10 @@
 }
 body{
     background: linear-gradient(to right, #8608cfc7, #301e3a);
-
 }
 .icon {
     height:1rem;
     width: 1rem;
-    margin: auto;
 }
 .imagem {
     width: 400px;
@@ -29,22 +27,31 @@ body{
 
 .div_pai {
     display: inline-block;
-    text-decoration: none;
+    text-align: center;
 
 }
+
 .div_de_dentro {
     background-color: aliceblue;
-    height: 50px;
+    height: 4rem;
     width: 20rem;
-    text-align: center;
     margin: 20px;
-    text-decoration: none;
+    border-radius: 28rem;
 }
+
+
 .P {
     display: inline-flex;
+    height: 20px;
+    width: 20px;
 }
 
-
+.linha {
+    color: #09f3cc;
+    width: 2px;
+    height: 40px;
+    background-color: #09f3cc;
+}
 
 
 /* li1 = li 
